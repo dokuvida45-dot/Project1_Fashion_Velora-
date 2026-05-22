@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Velora Couture - Curated luxury fashion. Hand-picked apparel, sustainable design, worldwide delivery.">
+    <meta name="keywords" content="luxury fashion, designer clothing, sustainable apparel, online boutique">
+    <meta name="author" content="Velora Couture">
+    <title>Velora Couture | Curated Luxury Fashion</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Skip link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Announcement bar -->
+    <div class="announcement-bar" role="region" aria-label="Promotional announcement">
+        <p>Complimentary international shipping on orders over $250 &nbsp;|&nbsp; New Spring Collection Now Live</p>
+    </div>
+    <img src="./images/images.avif" alt="Product one" style="display:block; width:300px; height:auto; margin:30px; border:3px solid red;">
+    <!-- Header -->
+    <header class="site-header" role="banner">
+        <div class="header-inner">
+            <a href="index.html" class="brand" aria-label="Velora Couture home">
+                <span class="brand-mark">V</span>
+                <span class="brand-name">Velora Couture</span>
+            </a>
+
+            <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Open navigation menu">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="primary-nav" id="primaryNav" role="navigation" aria-label="Primary">
+                <ul>
+                    <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="account.html">Account</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cart.html" class="cart-link" aria-label="View cart, 2 items">Cart <span class="cart-count">2</span></a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Search bar -->
+        <div class="search-region" role="search">
+            <label for="siteSearch" class="visually-hidden">Search site</label>
+            <input type="search" id="siteSearch" placeholder="Search collections, designers, journal&hellip;" aria-label="Search products and articles">
+            <button type="button" id="siteSearchBtn" aria-label="Run search">
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M10 2a8 8 0 105.293 14.293l4.207 4.207 1.414-1.414-4.207-4.207A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z" fill="currentColor"/></svg>
+            </button>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero with background video -->
+        <section class="hero" aria-label="Featured collection">
+            <video class="hero-video" autoplay muted loop playsinline poster="images/hero-poster.svg" aria-hidden="true">
+                <source src="https://cdn.coverr.co/videos/coverr-a-fashion-show-in-paris-1573/1080p.mp4" type="video/mp4">
+                <source src="images/hero.webm" type="video/webm">
+                Your browser does not support the background video.
+            </video>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <p class="eyebrow">Spring / Summer 2026</p>
+                <h1>Refined silhouettes,<br>quietly crafted.</h1>
+                <p class="hero-sub">A studio-curated edit of timeless garments from designers who care about craft, fabric, and the planet.</p>
+                <div class="hero-cta">
+                    <a href="shop.html" class="btn btn-primary">Shop the Edit</a>
+                    <a href="about.html" class="btn btn-ghost">Our Story</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured categories -->
+        <section class="features" aria-labelledby="featuresHeading">
+            <h2 id="featuresHeading" class="section-title">The Edit</h2>
+            <div class="feature-grid">
+                <article class="feature-card">
+                    <figure>
+                        <img src="images/shopping.avif" alt="Model wearing tailored ivory blazer over silk slip" loading="lazy">
+                    </figure>
+                    <h3>Womenswear</h3>
+                    <p>Tailored separates, organic knits and signature evening pieces.</p>
+                    <a href="shop.html" class="card-link">Discover &rarr;</a>
+                </article>
+                <article class="feature-card">
+                    <figure>
+                        <img src="images/men.avif" alt="Model wearing wool overcoat and merino turtleneck" loading="lazy">
+                    </figure>
+                    <h3>Menswear</h3>
+                    <p>Quietly luxurious essentials, structured outerwear, considered detail.</p>
+                    <a href="shop.html" class="card-link">Discover &rarr;</a>
+                </article>
+                <article class="feature-card">
+                    <figure>
+                        <img src="images/bag.avif" alt="Display of leather accessories on stone surface" loading="lazy">
+                    </figure>
+                    <h3>Accessories</h3>
+                    <p>Italian leather bags, hand-finished jewellery, scarves and small leather goods.</p>
+                    <a href="shop.html" class="card-link">Discover &rarr;</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Editorial / Story strip -->
+        <section class="story-strip" aria-labelledby="storyHeading">
+            <div class="story-text">
+                <p class="eyebrow">The House</p>
+                <h2 id="storyHeading">Considered fashion. Made to last.</h2>
+                <p>Velora Couture exists at the intersection of heritage and modernity. Every garment in our edit is sourced from ateliers we have visited in person, and every fabric is certified for environmental and human-rights standards.</p>
+                <a href="about.html" class="btn btn-ghost">Read our manifesto</a>
+            </div>
+            <figure class="story-image" aria-hidden="true">
+                <img src="images/atelier.svg" alt="" loading="lazy">
+            </figure>
+        </section>
+
+        <!-- Audio sample - multimedia format #2 (audio) -->
+        <section class="audio-feature" aria-labelledby="audioHeading">
+            <h2 id="audioHeading" class="section-title">The Velora Sound</h2>
+            <p class="centered-text">Listen to our seasonal mixtape, hand-curated to accompany your styling rituals.</p>
+            <audio controls preload="metadata" class="audio-player">
+                <source src="https://cdn.pixabay.com/audio/2022/10/25/audio_864e7b6d6c.mp3" type="audio/mpeg">
+                Your browser does not support the audio element. <a href="https://cdn.pixabay.com/audio/2022/10/25/audio_864e7b6d6c.mp3">Download the track</a>.
+            </audio>
+        </section>
+
+        <!-- Social newsfeed -->
+        <section class="social-feed" aria-labelledby="socialHeading">
+            <h2 id="socialHeading" class="section-title">@VeloraCouture &mdash; Live Feed</h2>
+            <p class="centered-text">A live edit from our Instagram and Pinterest channels.</p>
+            <div class="feed-grid">
+                <article class="feed-card">
+                    <header><strong>Instagram</strong> &middot; 2h ago</header>
+                    <img src="images/silk.avif" alt="Backstage moment at Milan runway show" loading="lazy">
+                    <p>Backstage at the Milan presentation &mdash; quiet elegance, fluid tailoring. #VeloraSS26</p>
+                    <footer>&#10084; 4.2k &middot; 318 comments</footer>
+                </article>
+                <article class="feed-card">
+                    <header><strong>Pinterest</strong> &middot; 5h ago</header>
+                    <img src="images/vis (1).avif" alt="Pinned moodboard of cream and stone fabrics" loading="lazy">
+                    <p>Spring moodboard &mdash; cream, stone, soft amber. Saved 1.8k times.</p>
+                    <footer>&#9733; 1.8k saves</footer>
+                </article>
+                <article class="feed-card">
+                    <header><strong>Instagram</strong> &middot; 1d ago</header>
+                    <img src="images/download.jpg" alt="Editorial photograph of leather handbag" loading="lazy">
+                    <p>Introducing the Lina shoulder bag &mdash; hand-finished in Florence.</p>
+                    <footer>&#10084; 9.1k &middot; 612 comments</footer>
+                </article>
+                <article class="feed-card">
+                    <header><strong>TikTok</strong> &middot; 2d ago</header>
+                    <img src="images/image.avif" alt="Short-form video still of model walking" loading="lazy">
+                    <p>How we style our linen suiting in three ways. Watch the reel.</p>
+                    <footer>&#9658; 218k views</footer>
+                </article>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter" aria-labelledby="newsletterHeading">
+            <h2 id="newsletterHeading">Join the House</h2>
+            <p>Quiet dispatches on new arrivals, atelier visits, and members-only previews.</p>
+            <form action="#" method="post" class="newsletter-form" novalidate>
+                <label for="emailInput" class="visually-hidden">Your email address</label>
+                <input type="email" id="emailInput" name="email" placeholder="Your email address" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="footer-grid">
+            <div>
+                <h3>Velora Couture</h3>
+                <p>14 Rue Saint-Honor&eacute;<br>75001 Paris, France</p>
+                <p>concierge@velora.example</p>
+            </div>
+            <div>
+                <h3>Shop</h3>
+                <ul>
+                    <li><a href="shop.html">All Collections</a></li>
+                    <li><a href="shop.html">Womenswear</a></li>
+                    <li><a href="shop.html">Menswear</a></li>
+                    <li><a href="shop.html">Accessories</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Client Services</h3>
+                <ul>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="account.html">My Account</a></li>
+                    <li><a href="cart.html">Shipping &amp; Returns</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Follow Us</h3>
+                <ul class="social-row">
+                    <li><a href="https://instagram.com" aria-label="Velora on Instagram" rel="noopener" target="_blank">Instagram</a></li>
+                    <li><a href="https://pinterest.com" aria-label="Velora on Pinterest" rel="noopener" target="_blank">Pinterest</a></li>
+                    <li><a href="https://tiktok.com" aria-label="Velora on TikTok" rel="noopener" target="_blank">TikTok</a></li>
+                    <li><a href="https://facebook.com" aria-label="Velora on Facebook" rel="noopener" target="_blank">Facebook</a></li>
+                    <li><a href="https://x.com" aria-label="Velora on X" rel="noopener" target="_blank">X / Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 Velora Couture. All rights reserved. Site secured by SSL. PCI&nbsp;DSS compliant checkout.</p>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>

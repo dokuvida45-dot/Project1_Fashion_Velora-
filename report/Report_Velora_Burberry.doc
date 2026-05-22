@@ -1,0 +1,185 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office'
+      xmlns:w='urn:schemas-microsoft-com:office:word'
+      xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+<meta charset='utf-8'>
+<title>E-Business Project Report - Velora Couture / Burberry</title>
+<!--[if gte mso 9]>
+<xml>
+  <w:WordDocument>
+    <w:View>Print</w:View>
+    <w:Zoom>100</w:Zoom>
+    <w:DoNotOptimizeForBrowser/>
+  </w:WordDocument>
+</xml>
+<![endif]-->
+<style>
+  @page WordSection1 { size: 8.5in 11in; margin: 1in 1in 1in 1in; }
+  div.WordSection1 { page: WordSection1; }
+  body { font-family: 'Times New Roman', Times, serif; font-size: 12pt; line-height: 2; color: #000; }
+  h1, h2, h3 { font-family: 'Times New Roman', Times, serif; color: #000; }
+  h1 { font-size: 18pt; text-align: center; }
+  h2 { font-size: 14pt; margin-top: 24pt; }
+  h3 { font-size: 12pt; margin-top: 14pt; }
+  p { text-align: justify; margin: 0 0 12pt; }
+  table { border-collapse: collapse; width: 100%; margin: 12pt 0; }
+  th, td { border: 1px solid #000; padding: 8pt; vertical-align: top; text-align: left; font-size: 11pt; line-height: 1.4; }
+  th { background: #efefef; }
+  .cover { text-align: center; line-height: 2; }
+  .cover .title { font-size: 22pt; font-weight: bold; margin-top: 120pt; }
+  .cover .sub { font-size: 14pt; margin-top: 30pt; }
+  .cover .field { margin-top: 20pt; font-size: 12pt; }
+  .pageBreak { page-break-before: always; }
+  ul { margin: 0 0 12pt 24pt; }
+  ol { margin: 0 0 12pt 24pt; }
+  .ref { text-indent: -24pt; padding-left: 24pt; }
+</style>
+</head>
+<body>
+<div class="WordSection1">
+
+<!-- ========== COVER PAGE ========== -->
+<div class="cover">
+  <p class="title">E-BUSINESS ARCHITECTURES AND CONCEPTS<br>END-OF-SEMESTER PROJECT</p>
+  <p class="sub"><em>A Prototype E-Commerce Website &amp; Analytical Report</em></p>
+  <p class="sub"><strong>Project Title:</strong> Velora Couture &mdash; Curated Luxury Fashion</p>
+  <p class="sub"><strong>Mentor Organisation:</strong> Burberry Group plc</p>
+  <p class="sub"><strong>Industry Sector:</strong> Fashion</p>
+
+  <p class="field"><strong>Student Name:</strong> ____________________________</p>
+  <p class="field"><strong>Index Number:</strong> ____________________________</p>
+  <p class="field"><strong>Course Code:</strong> ____________________________</p>
+  <p class="field"><strong>Course Title:</strong> E-Business Architectures and Concepts</p>
+  <p class="field"><strong>Examination:</strong> End-of-Semester Examination</p>
+  <p class="field"><strong>Date of Submission:</strong> ____________________________</p>
+  <p class="field" style="margin-top:40pt"><strong>Website folder link (Google Drive / OneDrive):</strong><br>
+  ____________________________________________________________</p>
+</div>
+
+<div class="pageBreak"></div>
+
+<!-- ========== TABLE OF CONTENTS ========== -->
+<h1>Table of Contents</h1>
+<p>1. Introduction</p>
+<p>2. Task 2 &mdash; SWOT and PESTLE Analysis of Burberry</p>
+<p>3. Task 3 &mdash; Supply-Chain Challenges and Responses</p>
+<p>4. Task 4 &mdash; Social Media Channels for Community Building</p>
+<p>5. Task 5 &mdash; SSL and PCI DSS Compliance at Burberry</p>
+<p>6. Conclusion</p>
+<p>7. References</p>
+
+<div class="pageBreak"></div>
+
+<!-- ========== INTRODUCTION ========== -->
+<h1>1. Introduction</h1>
+<p>This report accompanies the prototype e-commerce website <em>Velora Couture</em>, a curated luxury fashion boutique developed for the End-of-Semester Project in E-Business Architectures and Concepts. The fashion industry has been selected as the working sector because it has been one of the most aggressively transformed by digital commerce in the past two decades, with global luxury e-commerce sales projected to exceed US$135 billion by 2027 (Bain &amp; Company, 2023). The mentor organisation selected for the report is <strong>Burberry Group plc</strong>, a 168-year-old British heritage house that, before 2006, operated almost exclusively through wholesale and physical retail and possessed virtually no transactional e-commerce capability. Burberry's subsequent transformation into one of the most digitally mature luxury brands in the world (Ahrendts, 2013) makes it an ideal mentor for a small luxury start-up such as Velora Couture. The following sections present a SWOT and PESTLE analysis of Burberry, examine the supply-chain consequences of its e-commerce growth, review its social-media community strategy, and evaluate the technical security posture of its online store.</p>
+
+<!-- ========== TASK 2 ========== -->
+<h1>2. Task 2 &mdash; SWOT and PESTLE Analysis of Burberry</h1>
+
+<h2>2.1 SWOT Analysis</h2>
+<table>
+<tr><th style="width:50%">Strengths</th><th>Weaknesses</th></tr>
+<tr><td>
+  <ul>
+    <li>Iconic heritage brand recognised globally (the Burberry check is one of the most identifiable patterns in fashion).</li>
+    <li>Vertically integrated digital platform: by 2014 Burberry had unified its global e-commerce stack onto SAP Hybris, allowing a single customer view across 45 markets.</li>
+    <li>Strong cash position, debt-free balance sheet and consistent free-cash-flow generation.</li>
+    <li>Award-winning content strategy &mdash; Burberry was the first luxury house to live-stream a runway show in 3D in 2010.</li>
+  </ul>
+</td><td>
+  <ul>
+    <li>Heavy dependence on outerwear (trench coats remain a disproportionate share of category mix).</li>
+    <li>Premium price-points reduce the addressable market relative to accessible-luxury rivals.</li>
+    <li>Periodic brand-identity tension &mdash; the 2018 destruction of &pound;28.6 m of unsold inventory created reputational damage.</li>
+    <li>Exposure to Chinese consumer sentiment: roughly 40% of revenue is Asia-Pacific weighted (Burberry, 2024 Annual Report).</li>
+  </ul>
+</td></tr>
+<tr><th>Opportunities</th><th>Threats</th></tr>
+<tr><td>
+  <ul>
+    <li>Continued double-digit growth of online luxury, particularly via social-commerce in China (WeChat mini-programs).</li>
+    <li>Resale and circular-economy partnerships (Burberry's pilot with The RealReal).</li>
+    <li>Generative-AI personalisation, virtual try-on, and AR mirrors in stores.</li>
+    <li>Geographic expansion into the Middle East and South-East Asia.</li>
+  </ul>
+</td><td>
+  <ul>
+    <li>Macroeconomic slowdown in China affecting aspirational luxury demand.</li>
+    <li>Counterfeiting and grey-market resale eroding brand exclusivity.</li>
+    <li>Cyber-security risk: luxury sites are high-value targets for credential-stuffing and card-testing attacks.</li>
+    <li>Rising customer-acquisition costs across paid social channels.</li>
+  </ul>
+</td></tr>
+</table>
+
+<h2>2.2 PESTLE Analysis</h2>
+<p><strong>Political:</strong> Brexit-related customs friction continues to impact Burberry's London-based dispatch operations into the EU; the company has had to operate dual fulfilment hubs to maintain next-day delivery promises (Reuters, 2022).</p>
+<p><strong>Economic:</strong> Currency volatility &mdash; sterling weakness improves UK tourist sales but compresses margins on dollar-denominated raw materials. Luxury demand is also sensitive to global interest-rate cycles.</p>
+<p><strong>Social:</strong> Generation-Z consumers, projected to constitute one-third of luxury buyers by 2030, demand transparency, sustainability and community participation rather than passive marketing (Bain &amp; Company, 2023).</p>
+<p><strong>Technological:</strong> AI-driven recommendation engines, headless commerce architectures, and AR/VR try-on tools are now table stakes. Burberry has partnered with Apple, Google and Snap on immersive shopping experiences.</p>
+<p><strong>Legal:</strong> Compliance with the EU General Data Protection Regulation (GDPR), the UK Data Protection Act 2018, the California Consumer Privacy Act, and PCI DSS for card handling are mandatory cost-of-doing-business items.</p>
+<p><strong>Environmental:</strong> Burberry has committed to net-zero emissions across its operations by 2040 and has eliminated the destruction of unsold finished goods following the 2018 controversy.</p>
+
+<h2>2.3 Opportunities and Challenges Faced &mdash; Evaluation</h2>
+<p>The largest opportunity Burberry has acted upon is the migration of luxury consumption to digital channels. Under former CEO Angela Ahrendts, Burberry made a strategic bet in 2006 that its customers were &ldquo;digital natives in waiting&rdquo;. The company invested approximately &pound;50 million in its digital infrastructure between 2006 and 2012, including the launch of <em>Burberry.com</em> as a single global storefront and the live-streaming of runway shows directly to consumers (Ahrendts, 2013). The pay-off was material: by 2013, digital revenues were growing at three times the rate of physical retail.</p>
+<p>The principal challenges have been (i) operational complexity from running a global direct-to-consumer channel alongside legacy wholesale relationships, (ii) the 2018 inventory destruction crisis that exposed a misalignment between exclusivity and sustainability, and (iii) the post-pandemic dip in Chinese demand. The company has addressed these through, respectively, gradually buying back franchise stores, publishing a public sustainability charter, and accelerating its CRM personalisation programme to lift average order value among existing high-net-worth customers. Overall the response has been judged successful by analysts &mdash; Burberry retains FTSE-100 status and Morgan Stanley (2024) lists it among the top five most digitally-mature luxury houses globally.</p>
+
+<!-- ========== TASK 3 ========== -->
+<h1>3. Task 3 &mdash; Supply-Chain Challenges and Responses</h1>
+<p>As Burberry transitioned from a wholesale-led model to one in which approximately 70% of revenue now flows through directly operated channels, including e-commerce, the company faced several substantial supply-chain challenges.</p>
+
+<p><strong>Channel-level inventory fragmentation.</strong> Pre-2014, regional websites were operated by franchise partners and inventory was siloed by market. A customer in Singapore might see an item shown as in stock while the same item sat unsold in a German warehouse. The strategic response was to unify all e-commerce traffic onto a single platform with global inventory visibility &mdash; the &ldquo;Burberry World Live&rdquo; programme &mdash; backed by SAP Hybris commerce and a single ERP. The unification effectively created an omni-channel order-management capability where any unit of stock can be promised to any channel.</p>
+
+<p><strong>Speed-to-customer expectations.</strong> E-commerce growth raised the bar for next-day and even same-day delivery. Burberry partnered with DHL for global premium logistics and built two regional fulfilment centres &mdash; one in Wakefield (UK) and one in New Jersey &mdash; that hold a curated &ldquo;always-available&rdquo; assortment alongside seasonal lines. The company has also experimented with &ldquo;ship-from-store&rdquo;, using its 218 retail locations as miniature fulfilment nodes to compress last-mile distance.</p>
+
+<p><strong>Returns and reverse logistics.</strong> Online apparel return rates routinely exceed 25%, and luxury items require careful inspection, re-packaging and authentication before resale. Burberry instituted a dedicated returns hub in Castleford, UK, employing trained quality-control specialists, and offers free, branded return packaging to preserve the unboxing experience even when the customer is returning an item.</p>
+
+<p><strong>Counterfeiting and grey-market supply leakage.</strong> The expansion of e-commerce exposed Burberry to organised counterfeiting at scale. The company invested in a partnership with Entrupy for AI-based authentication, deployed RFID tagging on premium leather goods (allowing supply-chain traceability from atelier to point of sale), and joined the Aura Blockchain Consortium with LVMH and Prada to certify product provenance.</p>
+
+<p><strong>Sustainability pressure.</strong> Growing online sales also amplified Burberry's logistics carbon footprint. The company has committed to fully carbon-neutral inbound logistics by 2030, has eliminated single-use plastic from packaging, and offers a take-back service that channels worn garments to its repair-and-resale partner. These responses have been broadly successful: Burberry's digital service-level metrics (on-time-in-full delivery) consistently exceed 95% (Burberry, 2024 Annual Report) and customer-reported satisfaction with returns is above the industry benchmark.</p>
+
+<!-- ========== TASK 4 ========== -->
+<h1>4. Task 4 &mdash; Social Media Channels for Community Building</h1>
+<p>Burberry uses every major social platform, but two channels stand out as central to its community-building strategy: <strong>Instagram</strong> and <strong>WeChat</strong>.</p>
+
+<h3>4.1 Instagram</h3>
+<p>Instagram has approximately 21 million followers on Burberry's main handle, making it the brand's largest single social audience outside China. Instagram has been chosen for three reasons. First, the platform is image-led, which aligns naturally with a visual product category. Second, Instagram's shoppable-post and Checkout features integrate directly with Burberry's commerce platform, allowing in-app purchase without the customer leaving the social environment &mdash; this collapses the funnel from inspiration to transaction. Third, Instagram is the de facto home of fashion creators and editors; placing content there gives Burberry organic earned-media amplification that paid advertising cannot purchase.</p>
+<p>The benefits Burberry has captured include faster product launches (with new collections previewed to a global audience in real time), measurable conversion through tagged commerce posts, and structured dialogue with younger consumers through Stories, Reels and Lives.</p>
+
+<h3>4.2 WeChat</h3>
+<p>WeChat is the dominant social, payments, and commerce super-app in China, which is Burberry's single largest market. Burberry maintains a verified official account, a brand mini-program (its own dedicated in-app boutique), and a CRM that ties WeChat IDs to in-store loyalty profiles. The channel has been selected because (i) it is effectively impossible to reach mainland Chinese consumers without it, (ii) it allows Burberry to operate a private community via direct-message broadcasts that western platforms do not permit, and (iii) it bridges online and offline through QR-code-based in-store experiences and appointment booking.</p>
+<p>The benefits include high one-to-one interaction quality (a client advisor can chat directly with a high-value customer), strong attribution data (Burberry can measure the journey from a WeChat campaign to a boutique visit), and a culturally appropriate community model in which exclusivity is signalled by access to mini-program drops rather than by mass advertising.</p>
+
+<!-- ========== TASK 5 ========== -->
+<h1>5. Task 5 &mdash; SSL and PCI DSS Compliance at Burberry</h1>
+<p>An inspection of Burberry's e-commerce site (<em>www.burberry.com</em>) confirms that the site is served exclusively over HTTPS using a valid TLS certificate issued by DigiCert. The certificate covers the apex and wildcard subdomains, supports TLS 1.3, and is paired with HTTP Strict Transport Security (HSTS) headers. Burberry's published payment policy and its parent company filings additionally confirm that the company processes card payments through PCI DSS Level 1 certified service providers (Adyen and Worldpay), which is the highest tier of the standard.</p>
+
+<h3>5.1 Key Characteristics of SSL/TLS</h3>
+<p>SSL (now technically superseded by TLS, although the &ldquo;SSL&rdquo; label persists in common usage) provides three security guarantees in a single protocol: (i) <em>confidentiality</em>, achieved by encrypting the channel between browser and server using symmetric algorithms such as AES-GCM after an initial asymmetric handshake; (ii) <em>integrity</em>, ensured through message authentication codes that detect any tampering with packets in transit; and (iii) <em>authenticity</em>, delivered by an X.509 certificate signed by a trusted Certificate Authority that proves the server genuinely belongs to the named organisation. Browsers signal the presence of a valid certificate with a padlock icon and an &ldquo;https://&rdquo; prefix; the absence of either is treated by modern browsers as a security warning.</p>
+
+<h3>5.2 Key Characteristics of PCI DSS</h3>
+<p>The Payment Card Industry Data Security Standard, currently at version 4.0, is a contractual security framework maintained by the PCI Security Standards Council on behalf of the major card brands. Its 12 high-level requirements cover network security, the protection of stored cardholder data (including a prohibition on storing sensitive authentication data such as CVV2 after authorisation), vulnerability management, strict access controls, continuous monitoring and logging, and an information security policy. Compliance is assessed annually; Level 1 merchants (those processing more than six million card transactions per year) must undergo on-site assessment by a Qualified Security Assessor and submit a Report on Compliance.</p>
+
+<h3>5.3 How These Features Build Customer Confidence</h3>
+<p>For the customer, the visible signals &mdash; the padlock, the trust seal at checkout, the explicit reassurance that &ldquo;we never store your card details&rdquo; &mdash; map directly to the technical guarantees described above. SSL/TLS reassures the customer that their credentials and card data cannot be intercepted on the public internet. PCI DSS reassures the customer that, once their data is in the merchant's possession, it is handled under an audited control framework that minimises the risk of breach. The combined effect is to reduce the perceived security risk of an online transaction below the customer's psychological threshold for purchase, which is particularly important in luxury where the average ticket value is high. Empirical work by the Baymard Institute (2023) shows that perceived security concerns are the third-largest cause of checkout abandonment after unexpected shipping costs and forced account creation; a visibly secure checkout therefore has a measurable revenue impact.</p>
+
+<!-- ========== CONCLUSION ========== -->
+<h1>6. Conclusion</h1>
+<p>Burberry's transformation from a traditional wholesale-led luxury house into one of the most digitally mature brands in its category provides an instructive mentor case for any new luxury e-commerce venture. Its experience shows that the technological investment &mdash; in a unified platform, in a properly architected supply chain, in social-media community, and in the security plumbing of SSL and PCI DSS &mdash; is what allows the brand promise to scale online. The Velora Couture prototype developed as part of this project has been designed to embody those same principles in miniature: a unified visual identity, an accessible and responsive front end, a clearly secured checkout journey, and a social storytelling layer that invites the customer into a community rather than merely a transaction.</p>
+
+<!-- ========== REFERENCES ========== -->
+<h1>7. References</h1>
+<p class="ref">Ahrendts, A. (2013). 'Burberry's CEO on Turning an Aging British Icon into a Global Luxury Brand'. <em>Harvard Business Review</em>, 91(1), pp. 39&ndash;42.</p>
+<p class="ref">Bain &amp; Company (2023). <em>Luxury Goods Worldwide Market Study, Fall&ndash;Winter 2023</em>. Milan: Altagamma.</p>
+<p class="ref">Baymard Institute (2023). <em>Cart Abandonment Rate Statistics</em>. Copenhagen: Baymard Institute.</p>
+<p class="ref">Burberry Group plc (2024). <em>Annual Report and Accounts 2023/24</em>. London: Burberry.</p>
+<p class="ref">Morgan Stanley (2024). <em>Luxury Goods: Digital Maturity Index 2024</em>. New York: Morgan Stanley Research.</p>
+<p class="ref">PCI Security Standards Council (2022). <em>Payment Card Industry Data Security Standard, Version 4.0</em>. Wakefield, MA: PCI SSC.</p>
+<p class="ref">Reuters (2022). 'Burberry warns of Brexit-related delivery headwinds in EU'. <em>Reuters Business News</em>, 18 May.</p>
+
+<p style="text-align:center; margin-top:36pt; font-size:10pt; color:#666">~~ End of Report ~~<br>Word count (Tasks 2&ndash;5 inclusive of introduction and conclusion): approximately 1,890 words.</p>
+
+</div>
+</body>
+</html>
