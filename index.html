@@ -20,7 +20,6 @@
     <div class="announcement-bar" role="region" aria-label="Promotional announcement">
         <p>Complimentary international shipping on orders over $250 &nbsp;|&nbsp; New Spring Collection Now Live</p>
     </div>
-    <img src="./images/images.avif" alt="Product one" style="display:block; width:300px; height:auto; margin:30px; border:3px solid red;">
     <!-- Header -->
     <header class="site-header" role="banner">
         <div class="header-inner">
@@ -59,7 +58,7 @@
         <!-- Hero with background video -->
         <section class="hero" aria-label="Featured collection">
             <video class="hero-video" autoplay muted loop playsinline poster="images/hero-poster.svg" aria-hidden="true">
-                <source src="https://cdn.coverr.co/videos/coverr-a-fashion-show-in-paris-1573/1080p.mp4" type="video/mp4">
+                <source src="images/video.mp4" type="video/mp4">
                 <source src="images/hero.webm" type="video/webm">
                 Your browser does not support the background video.
             </video>
@@ -115,19 +114,23 @@
                 <a href="about.html" class="btn btn-ghost">Read our manifesto</a>
             </div>
             <figure class="story-image" aria-hidden="true">
-                <img src="images/atelier.svg" alt="" loading="lazy">
+                <img src="images/image.avif" alt="" loading="lazy">
             </figure>
         </section>
 
-        <!-- Audio sample - multimedia format #2 (audio) -->
-        <section class="audio-feature" aria-labelledby="audioHeading">
-            <h2 id="audioHeading" class="section-title">The Velora Sound</h2>
-            <p class="centered-text">Listen to our seasonal mixtape, hand-curated to accompany your styling rituals.</p>
-            <audio controls preload="metadata" class="audio-player">
-                <source src="https://cdn.pixabay.com/audio/2022/10/25/audio_864e7b6d6c.mp3" type="audio/mpeg">
-                Your browser does not support the audio element. <a href="https://cdn.pixabay.com/audio/2022/10/25/audio_864e7b6d6c.mp3">Download the track</a>.
-            </audio>
-        </section>
+      <!-- Video sample - multimedia format #2 (video) -->
+<section class="video-feature" aria-labelledby="videoHeading">
+    <h2 id="videoHeading" class="section-title">The Velora Look</h2>
+    <p class="centered-text">
+        Watch our seasonal fashion preview, curated to inspire your styling rituals.
+    </p>
+
+    <video controls autoplay muted loop preload="metadata" class="video-player">
+        <source src="images/video.mp4" type="video/mp4">
+        Your browser does not support the video element.
+        <a href="images/video.mp4">Download the video</a>.
+    </video>
+</section>
 
         <!-- Social newsfeed -->
         <section class="social-feed" aria-labelledby="socialHeading">
